@@ -14,6 +14,8 @@
 		E418F09F1D1EE9DF00FBBD04 /* Lab05.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E418F09D1D1EE9DF00FBBD04 /* Lab05.xcdatamodeld */; };
 		E418F0A11D1EE9DF00FBBD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E418F0A01D1EE9DF00FBBD04 /* Assets.xcassets */; };
 		E418F0A41D1EE9DF00FBBD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E418F0A21D1EE9DF00FBBD04 /* LaunchScreen.storyboard */; };
+		E418F0B11D1EF2BE00FBBD04 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = E418F0AF1D1EF2BE00FBBD04 /* cellHome.m */; };
+		E418F0B21D1EF2BE00FBBD04 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = E418F0B01D1EF2BE00FBBD04 /* cellHome.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		E418F0A01D1EE9DF00FBBD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E418F0A31D1EE9DF00FBBD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E418F0A51D1EE9DF00FBBD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E418F0AE1D1EF2BE00FBBD04 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
+		E418F0AF1D1EF2BE00FBBD04 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
+		E418F0B01D1EF2BE00FBBD04 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 			children = (
 				E418F0AB1D1EECF500FBBD04 /* Main */,
 				E418F0AC1D1EECFC00FBBD04 /* Controllers */,
+				E418F0AD1D1EF28900FBBD04 /* Cells */,
 				E418F09A1D1EE9DF00FBBD04 /* Main.storyboard */,
 				E418F0A01D1EE9DF00FBBD04 /* Assets.xcassets */,
 				E418F0A21D1EE9DF00FBBD04 /* LaunchScreen.storyboard */,
@@ -96,6 +102,16 @@
 				E418F0981D1EE9DF00FBBD04 /* Home.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E418F0AD1D1EF28900FBBD04 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E418F0AE1D1EF2BE00FBBD04 /* cellHome.h */,
+				E418F0AF1D1EF2BE00FBBD04 /* cellHome.m */,
+				E418F0B01D1EF2BE00FBBD04 /* cellHome.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +174,7 @@
 			files = (
 				E418F0A41D1EE9DF00FBBD04 /* LaunchScreen.storyboard in Resources */,
 				E418F0A11D1EE9DF00FBBD04 /* Assets.xcassets in Resources */,
+				E418F0B21D1EF2BE00FBBD04 /* cellHome.xib in Resources */,
 				E418F09C1D1EE9DF00FBBD04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,6 +189,7 @@
 				E418F0991D1EE9DF00FBBD04 /* Home.m in Sources */,
 				E418F0961D1EE9DF00FBBD04 /* AppDelegate.m in Sources */,
 				E418F09F1D1EE9DF00FBBD04 /* Lab05.xcdatamodeld in Sources */,
+				E418F0B11D1EF2BE00FBBD04 /* cellHome.m in Sources */,
 				E418F0931D1EE9DF00FBBD04 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
