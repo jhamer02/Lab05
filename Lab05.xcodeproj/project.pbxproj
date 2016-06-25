@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E418F0931D1EE9DF00FBBD04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E418F0921D1EE9DF00FBBD04 /* main.m */; };
 		E418F0961D1EE9DF00FBBD04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E418F0951D1EE9DF00FBBD04 /* AppDelegate.m */; };
-		E418F0991D1EE9DF00FBBD04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E418F0981D1EE9DF00FBBD04 /* ViewController.m */; };
+		E418F0991D1EE9DF00FBBD04 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = E418F0981D1EE9DF00FBBD04 /* Home.m */; };
 		E418F09C1D1EE9DF00FBBD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E418F09A1D1EE9DF00FBBD04 /* Main.storyboard */; };
 		E418F09F1D1EE9DF00FBBD04 /* Lab05.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E418F09D1D1EE9DF00FBBD04 /* Lab05.xcdatamodeld */; };
 		E418F0A11D1EE9DF00FBBD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E418F0A01D1EE9DF00FBBD04 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		E418F0921D1EE9DF00FBBD04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E418F0941D1EE9DF00FBBD04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E418F0951D1EE9DF00FBBD04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E418F0971D1EE9DF00FBBD04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E418F0981D1EE9DF00FBBD04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E418F0971D1EE9DF00FBBD04 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		E418F0981D1EE9DF00FBBD04 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		E418F09B1D1EE9DF00FBBD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E418F09E1D1EE9DF00FBBD04 /* Lab05.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab05.xcdatamodel; sourceTree = "<group>"; };
 		E418F0A01D1EE9DF00FBBD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		E418F0901D1EE9DF00FBBD04 /* Lab05 */ = {
 			isa = PBXGroup;
 			children = (
-				E418F0941D1EE9DF00FBBD04 /* AppDelegate.h */,
-				E418F0951D1EE9DF00FBBD04 /* AppDelegate.m */,
-				E418F0971D1EE9DF00FBBD04 /* ViewController.h */,
-				E418F0981D1EE9DF00FBBD04 /* ViewController.m */,
+				E418F0AB1D1EECF500FBBD04 /* Main */,
+				E418F0AC1D1EECFC00FBBD04 /* Controllers */,
 				E418F09A1D1EE9DF00FBBD04 /* Main.storyboard */,
 				E418F0A01D1EE9DF00FBBD04 /* Assets.xcassets */,
 				E418F0A21D1EE9DF00FBBD04 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				E418F0921D1EE9DF00FBBD04 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E418F0AB1D1EECF500FBBD04 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E418F0941D1EE9DF00FBBD04 /* AppDelegate.h */,
+				E418F0951D1EE9DF00FBBD04 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		E418F0AC1D1EECFC00FBBD04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E418F0971D1EE9DF00FBBD04 /* Home.h */,
+				E418F0981D1EE9DF00FBBD04 /* Home.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E418F0991D1EE9DF00FBBD04 /* ViewController.m in Sources */,
+				E418F0991D1EE9DF00FBBD04 /* Home.m in Sources */,
 				E418F0961D1EE9DF00FBBD04 /* AppDelegate.m in Sources */,
 				E418F09F1D1EE9DF00FBBD04 /* Lab05.xcdatamodeld in Sources */,
 				E418F0931D1EE9DF00FBBD04 /* main.m in Sources */,
