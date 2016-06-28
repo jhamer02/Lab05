@@ -16,6 +16,11 @@
 		E418F0A41D1EE9DF00FBBD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E418F0A21D1EE9DF00FBBD04 /* LaunchScreen.storyboard */; };
 		E418F0B11D1EF2BE00FBBD04 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = E418F0AF1D1EF2BE00FBBD04 /* cellHome.m */; };
 		E418F0B21D1EF2BE00FBBD04 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = E418F0B01D1EF2BE00FBBD04 /* cellHome.xib */; };
+		E4841CB91D22314200557819 /* jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = E4841CB41D22314200557819 /* jalisco.png */; };
+		E4841CBA1D22314200557819 /* nuevoleon.png in Resources */ = {isa = PBXBuildFile; fileRef = E4841CB51D22314200557819 /* nuevoleon.png */; };
+		E4841CBB1D22314200557819 /* oaxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = E4841CB61D22314200557819 /* oaxaca.png */; };
+		E4841CBC1D22314200557819 /* quintanaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4841CB71D22314200557819 /* quintanaroo.png */; };
+		E4841CBD1D22314200557819 /* sanluis.png in Resources */ = {isa = PBXBuildFile; fileRef = E4841CB81D22314200557819 /* sanluis.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		E418F0AE1D1EF2BE00FBBD04 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
 		E418F0AF1D1EF2BE00FBBD04 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
 		E418F0B01D1EF2BE00FBBD04 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
+		E4841CB41D22314200557819 /* jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jalisco.png; sourceTree = "<group>"; };
+		E4841CB51D22314200557819 /* nuevoleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuevoleon.png; sourceTree = "<group>"; };
+		E4841CB61D22314200557819 /* oaxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oaxaca.png; sourceTree = "<group>"; };
+		E4841CB71D22314200557819 /* quintanaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quintanaroo.png; sourceTree = "<group>"; };
+		E4841CB81D22314200557819 /* sanluis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanluis.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,7 @@
 		E418F0901D1EE9DF00FBBD04 /* Lab05 */ = {
 			isa = PBXGroup;
 			children = (
+				E4841CB31D22314200557819 /* Images */,
 				E418F0AB1D1EECF500FBBD04 /* Main */,
 				E418F0AC1D1EECFC00FBBD04 /* Controllers */,
 				E418F0AD1D1EF28900FBBD04 /* Cells */,
@@ -112,6 +123,18 @@
 				E418F0B01D1EF2BE00FBBD04 /* cellHome.xib */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		E4841CB31D22314200557819 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E4841CB41D22314200557819 /* jalisco.png */,
+				E4841CB51D22314200557819 /* nuevoleon.png */,
+				E4841CB61D22314200557819 /* oaxaca.png */,
+				E4841CB71D22314200557819 /* quintanaroo.png */,
+				E4841CB81D22314200557819 /* sanluis.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +196,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E418F0A41D1EE9DF00FBBD04 /* LaunchScreen.storyboard in Resources */,
+				E4841CBA1D22314200557819 /* nuevoleon.png in Resources */,
 				E418F0A11D1EE9DF00FBBD04 /* Assets.xcassets in Resources */,
+				E4841CBC1D22314200557819 /* quintanaroo.png in Resources */,
 				E418F0B21D1EF2BE00FBBD04 /* cellHome.xib in Resources */,
+				E4841CB91D22314200557819 /* jalisco.png in Resources */,
 				E418F09C1D1EE9DF00FBBD04 /* Main.storyboard in Resources */,
+				E4841CBB1D22314200557819 /* oaxaca.png in Resources */,
+				E4841CBD1D22314200557819 /* sanluis.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +367,7 @@
 				E418F0AA1D1EE9DF00FBBD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
