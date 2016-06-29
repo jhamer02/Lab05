@@ -21,6 +21,29 @@
 		E4841CBB1D22314200557819 /* oaxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = E4841CB61D22314200557819 /* oaxaca.png */; };
 		E4841CBC1D22314200557819 /* quintanaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4841CB71D22314200557819 /* quintanaroo.png */; };
 		E4841CBD1D22314200557819 /* sanluis.png in Resources */ = {isa = PBXBuildFile; fileRef = E4841CB81D22314200557819 /* sanluis.png */; };
+		E4841CBF1D234AFF00557819 /* matias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CBE1D234AFF00557819 /* matias.jpg */; };
+		E4841CD61D235CB000557819 /* jal_tlajomulco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC01D235CB000557819 /* jal_tlajomulco.jpg */; };
+		E4841CD71D235CB000557819 /* jal_tlaquepaque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC11D235CB000557819 /* jal_tlaquepaque.jpg */; };
+		E4841CD81D235CB000557819 /* jal_tonala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC21D235CB000557819 /* jal_tonala.jpg */; };
+		E4841CD91D235CB000557819 /* nvo_apodaca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC31D235CB000557819 /* nvo_apodaca.jpg */; };
+		E4841CDA1D235CB000557819 /* nvo_monterrey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC41D235CB000557819 /* nvo_monterrey.jpg */; };
+		E4841CDB1D235CB000557819 /* nvo_sanpedro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC51D235CB000557819 /* nvo_sanpedro.jpg */; };
+		E4841CDC1D235CB000557819 /* nvo_santacatarina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC61D235CB000557819 /* nvo_santacatarina.jpg */; };
+		E4841CDD1D235CB000557819 /* nvo_santiago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC71D235CB000557819 /* nvo_santiago.jpg */; };
+		E4841CDE1D235CB000557819 /* oax_calpulalpam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC81D235CB000557819 /* oax_calpulalpam.jpg */; };
+		E4841CDF1D235CB000557819 /* oax_oaxaca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CC91D235CB000557819 /* oax_oaxaca.jpg */; };
+		E4841CE01D235CB000557819 /* oax_sanlorenzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CCA1D235CB000557819 /* oax_sanlorenzo.jpg */; };
+		E4841CE11D235CB000557819 /* oax_tule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CCB1D235CB000557819 /* oax_tule.jpg */; };
+		E4841CE21D235CB000557819 /* qr_cancun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CCC1D235CB000557819 /* qr_cancun.jpg */; };
+		E4841CE31D235CB000557819 /* qr_cozumel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CCD1D235CB000557819 /* qr_cozumel.jpg */; };
+		E4841CE41D235CB000557819 /* qr_islamujeres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CCE1D235CB000557819 /* qr_islamujeres.jpg */; };
+		E4841CE51D235CB000557819 /* qr_playadelcarmen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CCF1D235CB000557819 /* qr_playadelcarmen.jpg */; };
+		E4841CE61D235CB000557819 /* qr_tulum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD01D235CB000557819 /* qr_tulum.jpg */; };
+		E4841CE71D235CB000557819 /* slp_realdecatorce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD11D235CB000557819 /* slp_realdecatorce.jpg */; };
+		E4841CE81D235CB000557819 /* slp_rioverde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD21D235CB000557819 /* slp_rioverde.jpg */; };
+		E4841CE91D235CB000557819 /* slp_sanluis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD31D235CB000557819 /* slp_sanluis.jpg */; };
+		E4841CEA1D235CB000557819 /* slp_tamasopo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD41D235CB000557819 /* slp_tamasopo.jpg */; };
+		E4841CEB1D235CB000557819 /* slp_xilitla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD51D235CB000557819 /* slp_xilitla.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +66,29 @@
 		E4841CB61D22314200557819 /* oaxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oaxaca.png; sourceTree = "<group>"; };
 		E4841CB71D22314200557819 /* quintanaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quintanaroo.png; sourceTree = "<group>"; };
 		E4841CB81D22314200557819 /* sanluis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanluis.png; sourceTree = "<group>"; };
+		E4841CBE1D234AFF00557819 /* matias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = matias.jpg; sourceTree = "<group>"; };
+		E4841CC01D235CB000557819 /* jal_tlajomulco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jal_tlajomulco.jpg; sourceTree = "<group>"; };
+		E4841CC11D235CB000557819 /* jal_tlaquepaque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jal_tlaquepaque.jpg; sourceTree = "<group>"; };
+		E4841CC21D235CB000557819 /* jal_tonala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jal_tonala.jpg; sourceTree = "<group>"; };
+		E4841CC31D235CB000557819 /* nvo_apodaca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nvo_apodaca.jpg; sourceTree = "<group>"; };
+		E4841CC41D235CB000557819 /* nvo_monterrey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nvo_monterrey.jpg; sourceTree = "<group>"; };
+		E4841CC51D235CB000557819 /* nvo_sanpedro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nvo_sanpedro.jpg; sourceTree = "<group>"; };
+		E4841CC61D235CB000557819 /* nvo_santacatarina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nvo_santacatarina.jpg; sourceTree = "<group>"; };
+		E4841CC71D235CB000557819 /* nvo_santiago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nvo_santiago.jpg; sourceTree = "<group>"; };
+		E4841CC81D235CB000557819 /* oax_calpulalpam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oax_calpulalpam.jpg; sourceTree = "<group>"; };
+		E4841CC91D235CB000557819 /* oax_oaxaca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oax_oaxaca.jpg; sourceTree = "<group>"; };
+		E4841CCA1D235CB000557819 /* oax_sanlorenzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oax_sanlorenzo.jpg; sourceTree = "<group>"; };
+		E4841CCB1D235CB000557819 /* oax_tule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oax_tule.jpg; sourceTree = "<group>"; };
+		E4841CCC1D235CB000557819 /* qr_cancun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qr_cancun.jpg; sourceTree = "<group>"; };
+		E4841CCD1D235CB000557819 /* qr_cozumel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qr_cozumel.jpg; sourceTree = "<group>"; };
+		E4841CCE1D235CB000557819 /* qr_islamujeres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qr_islamujeres.jpg; sourceTree = "<group>"; };
+		E4841CCF1D235CB000557819 /* qr_playadelcarmen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qr_playadelcarmen.jpg; sourceTree = "<group>"; };
+		E4841CD01D235CB000557819 /* qr_tulum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qr_tulum.jpg; sourceTree = "<group>"; };
+		E4841CD11D235CB000557819 /* slp_realdecatorce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slp_realdecatorce.jpg; sourceTree = "<group>"; };
+		E4841CD21D235CB000557819 /* slp_rioverde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slp_rioverde.jpg; sourceTree = "<group>"; };
+		E4841CD31D235CB000557819 /* slp_sanluis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slp_sanluis.jpg; sourceTree = "<group>"; };
+		E4841CD41D235CB000557819 /* slp_tamasopo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slp_tamasopo.jpg; sourceTree = "<group>"; };
+		E4841CD51D235CB000557819 /* slp_xilitla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slp_xilitla.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +121,10 @@
 		E418F0901D1EE9DF00FBBD04 /* Lab05 */ = {
 			isa = PBXGroup;
 			children = (
-				E4841CB31D22314200557819 /* Images */,
 				E418F0AB1D1EECF500FBBD04 /* Main */,
 				E418F0AC1D1EECFC00FBBD04 /* Controllers */,
 				E418F0AD1D1EF28900FBBD04 /* Cells */,
+				E4841CB31D22314200557819 /* Images */,
 				E418F09A1D1EE9DF00FBBD04 /* Main.storyboard */,
 				E418F0A01D1EE9DF00FBBD04 /* Assets.xcassets */,
 				E418F0A21D1EE9DF00FBBD04 /* LaunchScreen.storyboard */,
@@ -128,6 +174,29 @@
 		E4841CB31D22314200557819 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E4841CC01D235CB000557819 /* jal_tlajomulco.jpg */,
+				E4841CC11D235CB000557819 /* jal_tlaquepaque.jpg */,
+				E4841CC21D235CB000557819 /* jal_tonala.jpg */,
+				E4841CC31D235CB000557819 /* nvo_apodaca.jpg */,
+				E4841CC41D235CB000557819 /* nvo_monterrey.jpg */,
+				E4841CC51D235CB000557819 /* nvo_sanpedro.jpg */,
+				E4841CC61D235CB000557819 /* nvo_santacatarina.jpg */,
+				E4841CC71D235CB000557819 /* nvo_santiago.jpg */,
+				E4841CC81D235CB000557819 /* oax_calpulalpam.jpg */,
+				E4841CC91D235CB000557819 /* oax_oaxaca.jpg */,
+				E4841CCA1D235CB000557819 /* oax_sanlorenzo.jpg */,
+				E4841CCB1D235CB000557819 /* oax_tule.jpg */,
+				E4841CCC1D235CB000557819 /* qr_cancun.jpg */,
+				E4841CCD1D235CB000557819 /* qr_cozumel.jpg */,
+				E4841CCE1D235CB000557819 /* qr_islamujeres.jpg */,
+				E4841CCF1D235CB000557819 /* qr_playadelcarmen.jpg */,
+				E4841CD01D235CB000557819 /* qr_tulum.jpg */,
+				E4841CD11D235CB000557819 /* slp_realdecatorce.jpg */,
+				E4841CD21D235CB000557819 /* slp_rioverde.jpg */,
+				E4841CD31D235CB000557819 /* slp_sanluis.jpg */,
+				E4841CD41D235CB000557819 /* slp_tamasopo.jpg */,
+				E4841CD51D235CB000557819 /* slp_xilitla.jpg */,
+				E4841CBE1D234AFF00557819 /* matias.jpg */,
 				E4841CB41D22314200557819 /* jalisco.png */,
 				E4841CB51D22314200557819 /* nuevoleon.png */,
 				E4841CB61D22314200557819 /* oaxaca.png */,
@@ -195,15 +264,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4841CBF1D234AFF00557819 /* matias.jpg in Resources */,
+				E4841CE21D235CB000557819 /* qr_cancun.jpg in Resources */,
+				E4841CDC1D235CB000557819 /* nvo_santacatarina.jpg in Resources */,
+				E4841CEB1D235CB000557819 /* slp_xilitla.jpg in Resources */,
+				E4841CD91D235CB000557819 /* nvo_apodaca.jpg in Resources */,
+				E4841CE51D235CB000557819 /* qr_playadelcarmen.jpg in Resources */,
+				E4841CE01D235CB000557819 /* oax_sanlorenzo.jpg in Resources */,
+				E4841CDD1D235CB000557819 /* nvo_santiago.jpg in Resources */,
 				E418F0A41D1EE9DF00FBBD04 /* LaunchScreen.storyboard in Resources */,
 				E4841CBA1D22314200557819 /* nuevoleon.png in Resources */,
 				E418F0A11D1EE9DF00FBBD04 /* Assets.xcassets in Resources */,
+				E4841CE11D235CB000557819 /* oax_tule.jpg in Resources */,
 				E4841CBC1D22314200557819 /* quintanaroo.png in Resources */,
+				E4841CE41D235CB000557819 /* qr_islamujeres.jpg in Resources */,
 				E418F0B21D1EF2BE00FBBD04 /* cellHome.xib in Resources */,
+				E4841CDF1D235CB000557819 /* oax_oaxaca.jpg in Resources */,
 				E4841CB91D22314200557819 /* jalisco.png in Resources */,
+				E4841CD61D235CB000557819 /* jal_tlajomulco.jpg in Resources */,
+				E4841CE61D235CB000557819 /* qr_tulum.jpg in Resources */,
+				E4841CD71D235CB000557819 /* jal_tlaquepaque.jpg in Resources */,
+				E4841CD81D235CB000557819 /* jal_tonala.jpg in Resources */,
 				E418F09C1D1EE9DF00FBBD04 /* Main.storyboard in Resources */,
+				E4841CE91D235CB000557819 /* slp_sanluis.jpg in Resources */,
+				E4841CDA1D235CB000557819 /* nvo_monterrey.jpg in Resources */,
+				E4841CDB1D235CB000557819 /* nvo_sanpedro.jpg in Resources */,
 				E4841CBB1D22314200557819 /* oaxaca.png in Resources */,
+				E4841CE71D235CB000557819 /* slp_realdecatorce.jpg in Resources */,
 				E4841CBD1D22314200557819 /* sanluis.png in Resources */,
+				E4841CE31D235CB000557819 /* qr_cozumel.jpg in Resources */,
+				E4841CE81D235CB000557819 /* slp_rioverde.jpg in Resources */,
+				E4841CDE1D235CB000557819 /* oax_calpulalpam.jpg in Resources */,
+				E4841CEA1D235CB000557819 /* slp_tamasopo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
