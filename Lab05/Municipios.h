@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cellMunipios.h"
+#import "DestinationDetails.h"
 
 @interface Municipios : UIViewController
+
+@property NSInteger IStateForMun;
 
 @end

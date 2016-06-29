@@ -9,6 +9,7 @@
 #import "Home.h"
 
 @interface Home ()
+//@property NSMutableArray *destinationTitles;
 @property NSMutableArray *destinationTitles;
 @property NSMutableArray *destinationDescriptions;
 @property NSMutableArray *destinationPhotos;
@@ -16,6 +17,8 @@
 @property NSString *stTitleSelected;
 @property NSString *stDescriptionSelected;
 @property NSString *stPhotoSelected;
+
+@property NSInteger IState;
 
 @end
 
@@ -34,6 +37,11 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
+    //self.destinationTitles = [[NSMutableArray alloc] initWithCapacity:2];
+    
+    //[self.destinationTitles insertObject:[NSMutableArray arrayWithObjects:@"Oaxaca", @"Jalisco", @"Nuevo León", @"San Luis", @"Quintana Roo",nil] atIndex:0];
+    //[self.destinationTitles insertObject:[NSMutableArray arrayWithObjects:@"Matias Romero", @"Lagunas", @"Huajuapan", @"Mérida", @"Monterrey",nil] atIndex:1];
+    
     self.destinationTitles          = [[NSMutableArray alloc] initWithObjects: @"Oaxaca", @"Jalisco", @"Nuevo León", @"San Luis", @"Quintana Roo", nil];
     self.destinationPhotos          = [[NSMutableArray alloc] initWithObjects: @"oaxaca.png", @"jalisco.png", @"nuevoleon.png", @"sanluis.png", @"quintanaroo.png", nil];
     self.destinationDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Oaxaca se destaca por su cultura", @"Jalisco es un estado colonial", @"Destino para negocios", @"DEstino ideal para el ecoturismo", @"Estado con las mejore playas del país", nil];
@@ -46,7 +54,9 @@
 }
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.destinationTitles.count;
+    //return self.destinationTitles.count;
+    
+    return 5;
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -88,6 +98,7 @@
         cell = [tableView dequeueReusableCellWithIdentifier:@"cellHome"];
     }
     //Fill cell with info from arrays
+    //cell.lblDestinationTitle.text   = self.destinationTitles[1][indexPath.row];
     cell.lblDestinationTitle.text   = self.destinationTitles[indexPath.row];
     cell.ldlDescription.text        = self.destinationDescriptions[indexPath.row];
     cell.imgDestination.image       = [UIImage imageNamed:self.destinationPhotos[indexPath.row]];
@@ -99,6 +110,8 @@
 //    self.stTitleSelected        = self.destinationTitles[indexPath.row];
 //    self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
 //    self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
+    self.IState = indexPath.row;
+    
     [self performSegueWithIdentifier:@"Municipios" sender:self];
 }
 /**********************************************************************************************/
@@ -106,13 +119,13 @@
 /**********************************************************************************************/
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-//    if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
-//        DestinationDetails *destination     = [segue destinationViewController];
-//        destination.destinationTitle        = self.stTitleSelected;
+    if ([segue.destinationViewController isKindOfClass:[Municipios class]]) {
+        Municipios *destination     = [segue destinationViewController];
+        destination.IStateForMun        = self.IState;
 //        destination.destinationDescription  = self.stDescriptionSelected;
 //        destination.destinationPhoto        = self.stPhotoSelected;
 //        
-//    }
+    }
 }
 
 @end

@@ -45,6 +45,11 @@
 		E4841CEA1D235CB000557819 /* slp_tamasopo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD41D235CB000557819 /* slp_tamasopo.jpg */; };
 		E4841CEB1D235CB000557819 /* slp_xilitla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD51D235CB000557819 /* slp_xilitla.jpg */; };
 		E4841CEE1D23676900557819 /* Municipios.m in Sources */ = {isa = PBXBuildFile; fileRef = E4841CED1D23676900557819 /* Municipios.m */; };
+		E4841CF21D238E7700557819 /* cellMunipios.m in Sources */ = {isa = PBXBuildFile; fileRef = E4841CF01D238E7700557819 /* cellMunipios.m */; };
+		E4841CF31D238E7700557819 /* cellMunipios.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4841CF11D238E7700557819 /* cellMunipios.xib */; };
+		E4841CF61D239E2400557819 /* jal_arandas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CF41D239E2400557819 /* jal_arandas.jpg */; };
+		E4841CF71D239E2400557819 /* jal_guadalajara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CF51D239E2400557819 /* jal_guadalajara.jpg */; };
+		E4841CFA1D23A86B00557819 /* DestinationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = E4841CF91D23A86B00557819 /* DestinationDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +97,13 @@
 		E4841CD51D235CB000557819 /* slp_xilitla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slp_xilitla.jpg; sourceTree = "<group>"; };
 		E4841CEC1D23676900557819 /* Municipios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Municipios.h; sourceTree = "<group>"; };
 		E4841CED1D23676900557819 /* Municipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Municipios.m; sourceTree = "<group>"; };
+		E4841CEF1D238E7700557819 /* cellMunipios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMunipios.h; sourceTree = "<group>"; };
+		E4841CF01D238E7700557819 /* cellMunipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMunipios.m; sourceTree = "<group>"; };
+		E4841CF11D238E7700557819 /* cellMunipios.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMunipios.xib; sourceTree = "<group>"; };
+		E4841CF41D239E2400557819 /* jal_arandas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jal_arandas.jpg; sourceTree = "<group>"; };
+		E4841CF51D239E2400557819 /* jal_guadalajara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jal_guadalajara.jpg; sourceTree = "<group>"; };
+		E4841CF81D23A86B00557819 /* DestinationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationDetails.h; sourceTree = "<group>"; };
+		E4841CF91D23A86B00557819 /* DestinationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +174,8 @@
 				E418F0981D1EE9DF00FBBD04 /* Home.m */,
 				E4841CEC1D23676900557819 /* Municipios.h */,
 				E4841CED1D23676900557819 /* Municipios.m */,
+				E4841CF81D23A86B00557819 /* DestinationDetails.h */,
+				E4841CF91D23A86B00557819 /* DestinationDetails.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -172,6 +186,9 @@
 				E418F0AE1D1EF2BE00FBBD04 /* cellHome.h */,
 				E418F0AF1D1EF2BE00FBBD04 /* cellHome.m */,
 				E418F0B01D1EF2BE00FBBD04 /* cellHome.xib */,
+				E4841CEF1D238E7700557819 /* cellMunipios.h */,
+				E4841CF01D238E7700557819 /* cellMunipios.m */,
+				E4841CF11D238E7700557819 /* cellMunipios.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -179,6 +196,8 @@
 		E4841CB31D22314200557819 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E4841CF41D239E2400557819 /* jal_arandas.jpg */,
+				E4841CF51D239E2400557819 /* jal_guadalajara.jpg */,
 				E4841CC01D235CB000557819 /* jal_tlajomulco.jpg */,
 				E4841CC11D235CB000557819 /* jal_tlaquepaque.jpg */,
 				E4841CC21D235CB000557819 /* jal_tonala.jpg */,
@@ -275,12 +294,15 @@
 				E4841CEB1D235CB000557819 /* slp_xilitla.jpg in Resources */,
 				E4841CD91D235CB000557819 /* nvo_apodaca.jpg in Resources */,
 				E4841CE51D235CB000557819 /* qr_playadelcarmen.jpg in Resources */,
+				E4841CF61D239E2400557819 /* jal_arandas.jpg in Resources */,
+				E4841CF31D238E7700557819 /* cellMunipios.xib in Resources */,
 				E4841CE01D235CB000557819 /* oax_sanlorenzo.jpg in Resources */,
 				E4841CDD1D235CB000557819 /* nvo_santiago.jpg in Resources */,
 				E418F0A41D1EE9DF00FBBD04 /* LaunchScreen.storyboard in Resources */,
 				E4841CBA1D22314200557819 /* nuevoleon.png in Resources */,
 				E418F0A11D1EE9DF00FBBD04 /* Assets.xcassets in Resources */,
 				E4841CE11D235CB000557819 /* oax_tule.jpg in Resources */,
+				E4841CF71D239E2400557819 /* jal_guadalajara.jpg in Resources */,
 				E4841CBC1D22314200557819 /* quintanaroo.png in Resources */,
 				E4841CE41D235CB000557819 /* qr_islamujeres.jpg in Resources */,
 				E418F0B21D1EF2BE00FBBD04 /* cellHome.xib in Resources */,
@@ -316,7 +338,9 @@
 				E418F09F1D1EE9DF00FBBD04 /* Lab05.xcdatamodeld in Sources */,
 				E4841CEE1D23676900557819 /* Municipios.m in Sources */,
 				E418F0B11D1EF2BE00FBBD04 /* cellHome.m in Sources */,
+				E4841CF21D238E7700557819 /* cellMunipios.m in Sources */,
 				E418F0931D1EE9DF00FBBD04 /* main.m in Sources */,
+				E4841CFA1D23A86B00557819 /* DestinationDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
