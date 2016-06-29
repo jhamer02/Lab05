@@ -88,18 +88,18 @@
         cell = [tableView dequeueReusableCellWithIdentifier:@"cellHome"];
     }
     //Fill cell with info from arrays
-//    cell.lblDestinationTitle.text   = self.destinationTitles[indexPath.row];
-//    cell.lblDescription.text        = self.destinationDescriptions[indexPath.row];
-//    cell.imgDestination.image       = [UIImage imageNamed:self.destinationPhotos[indexPath.row]];
+    cell.lblDestinationTitle.text   = self.destinationTitles[indexPath.row];
+    cell.ldlDescription.text        = self.destinationDescriptions[indexPath.row];
+    cell.imgDestination.image       = [UIImage imageNamed:self.destinationPhotos[indexPath.row]];
     
     return cell;
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    self.stTitleSelected        = self.destinationTitles[indexPath.row];
-    self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
-    self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
-    [self performSegueWithIdentifier:@"DestinationDetails" sender:self];
+//    self.stTitleSelected        = self.destinationTitles[indexPath.row];
+//    self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
+//    self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
+    [self performSegueWithIdentifier:@"Municipios" sender:self];
 }
 /**********************************************************************************************/
 #pragma mark - Navigation
@@ -114,12 +114,5 @@
 //        
 //    }
 }
-
-
-
-
-
-
-
 
 @end

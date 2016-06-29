@@ -44,6 +44,7 @@
 		E4841CE91D235CB000557819 /* slp_sanluis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD31D235CB000557819 /* slp_sanluis.jpg */; };
 		E4841CEA1D235CB000557819 /* slp_tamasopo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD41D235CB000557819 /* slp_tamasopo.jpg */; };
 		E4841CEB1D235CB000557819 /* slp_xilitla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4841CD51D235CB000557819 /* slp_xilitla.jpg */; };
+		E4841CEE1D23676900557819 /* Municipios.m in Sources */ = {isa = PBXBuildFile; fileRef = E4841CED1D23676900557819 /* Municipios.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,8 @@
 		E4841CD31D235CB000557819 /* slp_sanluis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slp_sanluis.jpg; sourceTree = "<group>"; };
 		E4841CD41D235CB000557819 /* slp_tamasopo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slp_tamasopo.jpg; sourceTree = "<group>"; };
 		E4841CD51D235CB000557819 /* slp_xilitla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slp_xilitla.jpg; sourceTree = "<group>"; };
+		E4841CEC1D23676900557819 /* Municipios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Municipios.h; sourceTree = "<group>"; };
+		E4841CED1D23676900557819 /* Municipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Municipios.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 			children = (
 				E418F0971D1EE9DF00FBBD04 /* Home.h */,
 				E418F0981D1EE9DF00FBBD04 /* Home.m */,
+				E4841CEC1D23676900557819 /* Municipios.h */,
+				E4841CED1D23676900557819 /* Municipios.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 				E418F0991D1EE9DF00FBBD04 /* Home.m in Sources */,
 				E418F0961D1EE9DF00FBBD04 /* AppDelegate.m in Sources */,
 				E418F09F1D1EE9DF00FBBD04 /* Lab05.xcdatamodeld in Sources */,
+				E4841CEE1D23676900557819 /* Municipios.m in Sources */,
 				E418F0B11D1EF2BE00FBBD04 /* cellHome.m in Sources */,
 				E418F0931D1EE9DF00FBBD04 /* main.m in Sources */,
 			);
